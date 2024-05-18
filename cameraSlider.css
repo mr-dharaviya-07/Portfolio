@@ -1,0 +1,47 @@
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    opacity: 0;
+    /* overflow: hidden; */
+}
+.swiper-slide-active {
+    opacity: 0;
+    animation: cameraAnimation 1.5s ease 0.5s forwards;
+    /* display: none; */
+    /* overflow: hidden; */
+}
+.cameraAnimations{
+    animation: cameraAnimation 1.5s ease 0.5s forwards;
+}
+
+@keyframes cameraAnimation {
+    0%{
+        opacity: 0;
+        transform: translateY(150px) scale(0.65);
+    }
+    50%{
+        opacity: 1;
+        transform:translateY(0px) scale(0.65);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
+
+@keyframes nameAnimation{
+    0%{
+        opacity: 1;
+        transform: translateY(250px);
+    }
+
+    100%{
+        opacity: 1;
+        transform:translateY(0px);
+    }
+    
+}
