@@ -943,6 +943,12 @@ button:active{
     transition: opacity 0.2s;
     animation: cameraAnimation 1.5s ease 0.5s forwards;
 }
+.realme{
+    position: relative;
+    width: 470px;
+    height: 470px;
+    top:40px;
+}
 
 .nameContainer{
     position: absolute;
@@ -963,7 +969,7 @@ button:active{
     font-family: "Roboto Slab", serif;
     color: white;
     font-weight: 450;
-    font-size: 150px;
+    font-size: 130px;
     z-index:0;
     opacity: 0;
     transform: translateY(250px);
@@ -971,6 +977,7 @@ button:active{
     /* visibility: hidden; */
     animation: nameAnimation 1s ease-in 0.8s forwards;
 }
+
 .nameGrid{
     display: grid;
     visibility: hidden;
@@ -1508,7 +1515,7 @@ button:active{
     /* about section for mobile */
 
     .cameraSwiper{
-        overflow: hidden;
+        /* overflow: hidden; */
         height: 40%;
     }
 
@@ -1520,6 +1527,9 @@ button:active{
     .canon{
         width: 270px;
         height: 270px;
+    }
+    .realme{
+        top:25px;
     }
     .nameContainer{
         top:180px;
