@@ -1515,8 +1515,8 @@ button:active{
     /* about section for mobile */
 
     .cameraSwiper{
-        /* overflow: hidden; */
-        height: 40%;
+        overflow: hidden;
+        height: 41%;
     }
 
      .backImg{
@@ -1529,7 +1529,7 @@ button:active{
         height: 270px;
     }
     .realme{
-        top:25px;
+        top:23px;
     }
     .nameContainer{
         top:180px;
