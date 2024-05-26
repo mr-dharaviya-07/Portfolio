@@ -936,12 +936,16 @@ button:active{
     height: 500px;
     object-fit: contain;
     object-position: center;
+    cursor: grab;
     /* filter: drop-shadow(5px 3px 1px black); */
     /* overflow: hidden; */
     /* z-index:111; */
     opacity: 0;
     transition: opacity 0.2s;
     animation: cameraAnimation 1.5s ease 0.5s forwards;
+}
+.canon:active{
+    cursor: grabbing;
 }
 .realme{
     position: relative;
