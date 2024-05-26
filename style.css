@@ -894,6 +894,12 @@ button:active{
     font-family:"Roboto Slab", serif;
 }
 
+.text a{
+    text-decoration: none;
+    color: white;
+    
+}
+
 
 @keyframes opacityAnimation {
     0%{
