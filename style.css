@@ -1773,16 +1773,35 @@ button:active{
     .swiper{
         top:30px;
         height: 100%;
+        /* overflow: visible; */
         overflow-y: scroll;
+    }
+    .swiper-wrapper{
+        top:60px;
+        margin-bottom: 170px;
+        /* overflow-y: scroll; */
     }
     .backframeslider {
         font-size: 30px;
+        margin-top: 160px;
+        margin-bottom: 50px;
+        overflow-y: scroll;
     }
 
     .inside {
         font-size: 20px;
     }
 
+    .frame3by4{
+        height: 150%;
+    }
+    .frame9by16{
+        height: 150%;
+    }
+
+    .frame_note {
+        width: 80%;
+    }
 }
 
 
