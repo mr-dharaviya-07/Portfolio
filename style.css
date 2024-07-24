@@ -1331,7 +1331,7 @@ button:active{
         /* top:25%; */
         transform: scale(0.43) translate(-76%, 50%);
         /* transform: scale(0.43) ; */
-        animation: animationSection 0.5s ease;
+        animation: animationSection 0.7s ease;
 
     }
     #skill{
@@ -1343,12 +1343,12 @@ button:active{
 
     @keyframes animationSection {
         0% {
-            transform: scale(0.43) translate(-660px, 150px);
+            transform: scale(0.43) translate(-76%, 35%);
             opacity: 0;
         }
 
         100% {
-            transform: scale(0.43) translate(-660px, 220px);
+            transform: scale(0.43) translate(-76%, 50%);
             opacity: 1;
         }
     }
@@ -1356,7 +1356,7 @@ button:active{
     .photo {
         object-fit: contain;
         height: 45%;
-        top: 5%;
+        top: 8%;
         right: 15%;
         /* z-index: -2; */
         animation: animationPhoto 0.7s ease;
