@@ -9,10 +9,9 @@ body::-webkit-scrollbar {
 }
 
 body {
-    background-color: rgb(227, 220, 220);
     background-color: #000000ec;
+    /* height: 95vh; */
     /* overflow: hidden; */
-    /* height: 100vh; */
 }
 
 .body {
@@ -30,7 +29,7 @@ body {
     align-items: center;
     justify-content: center; */
     position: absolute;
-    height: 680px;
+    height: 600px;
     width: 1000px;
     top: 85px;
     left: 10px;
@@ -201,9 +200,9 @@ body {
 
 .photo {
     position: absolute;
-    height: 600px;
+    height: 75%;
     /* aspect-ratio: 1/1; */
-    right: 150px;
+    right: 10%;
     bottom: 70px;
     /* border: 2px solid black; */
     /* transform: translate(1050px,130px); */
@@ -1324,7 +1323,14 @@ button:active{
     .section {
         height: 500px;
         width: 800px;
-        transform: scale(0.43) translate(-660px, 220px);
+        /* height: 100px; */
+        /* width: 300px; */
+        position: relative;
+        font-size: 20px;
+        right:50%;
+        /* top:25%; */
+        transform: scale(0.43) translate(-76%, 50%);
+        /* transform: scale(0.43) ; */
         animation: animationSection 0.5s ease;
 
     }
@@ -1349,10 +1355,9 @@ button:active{
 
     .photo {
         object-fit: contain;
-        max-width: 55%;
-        aspect-ratio: 1/1;
-        top: -12%;
-        left: 25%;
+        height: 45%;
+        top: 5%;
+        right: 15%;
         /* z-index: -2; */
         animation: animationPhoto 0.7s ease;
     }
