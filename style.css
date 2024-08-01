@@ -1814,6 +1814,10 @@ button:active{
 
 @media (min-height:1850px){
 
+    .photo{
+        top: -18%;
+    }
+
     .fa-chevron-right{
         top:950px;
     }
