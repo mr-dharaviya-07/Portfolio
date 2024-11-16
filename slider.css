@@ -94,6 +94,7 @@ body {
   background-position: center;
   transition: transform 0.7s;
   perspective: 2000px;
+    border-radius: 10px;
   cursor: pointer;
   /* z-index: -2; */
 
